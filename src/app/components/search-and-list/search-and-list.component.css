@@ -1,0 +1,19 @@
+.search-list-wrapper {
+  width: 800px;
+  height: 800px;
+  padding: 5% 10%;
+  margin: 20px auto;
+  border-radius: 15%;
+  text-align: center;
+  background: #8de4af;
+  box-shadow: 20px 20px 10px 0 #05396b;
+}
+
+.look-for-key {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.look-for-key span {
+  font-style: italic;
+}

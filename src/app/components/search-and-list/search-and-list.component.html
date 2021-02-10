@@ -1,0 +1,15 @@
+<div class="search-list-wrapper">
+  <div class="search">
+    <input [(ngModel)]="searchKey" placeholder="type something">
+  </div>
+
+  <div class="list">
+    <div class="look-for-key"> You are looking for: <span>{{searchKey}}</span></div>
+    <div>
+      <span> Result List:</span>
+      <ul>
+        <li *ngFor="let val of list | filterResults: searchKey"> {{val}} </li>
+      </ul>
+    </div>
+  </div>
+</div>
